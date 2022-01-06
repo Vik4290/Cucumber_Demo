@@ -4,7 +4,7 @@
   "description": "This is just a cucumber demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "launchcucumber": "./node_modules/.bin/cucumber-js ./features/*.feature"
   },
   "author": "",
   "license": "ISC",
